@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="unReachedColor">#FF8A80</color>
+    <color name="reachedColor">#D50000</color>
+    <color name="innerTextColor">#ffffff</color>
+    <dimen name="innerTextSize">16dp</dimen>
+
+    <style name="Widget.HeartProgressBar" parent="android:Widget">
+        <item name="unReachedColor">@color/unReachedColor</item>
+        <item name="reachedColor">@color/reachedColor</item>
+        <item name="innerTextColor">@color/innerTextColor</item>
+        <item name="innerTextSize">@dimen/innerTextSize</item>
+    </style>
+
+
+</resources>

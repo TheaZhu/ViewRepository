@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="unReachedColor" format="color"/>
+    <attr name="reachedColor" format="color"/>
+    <attr name="innerTextColor" format="color"/>
+    <attr name="innerTextSize" format="dimension"/>
+
+    <declare-styleable name="HeartProgressBar">
+        <attr name="unReachedColor"/>
+        <attr name="reachedColor" />
+        <attr name="innerTextColor" />
+        <attr name="innerTextSize" />
+    </declare-styleable>
+
+    <attr name="progressBarBackgroundColor" format="color"/>
+    <attr name="progressBarForegroundColor" format="color"/>
+    <attr name="progressBarColor" format="color"/>
+    <attr name="progressBarWidth" format="dimension"/>
+
+    <declare-styleable name="FaceProgressBar">
+        <attr name="progressBarColor"/>
+        <attr name="progressBarWidth"/>
+    </declare-styleable>
+
+</resources>
