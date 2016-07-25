@@ -8,5 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <integer name="ballDuration">1000</integer>
+    <color name="ballShadowColor">#60000000</color>
+
+    <style name="Base.BallLoadingView" parent="android:Widget">
+        <item name="ballDuration">@integer/ballDuration</item>
+        <item name="ballImage">@mipmap/ic_ball</item>
+        <item name="ballShadowColor">@color/ballShadowColor</item>
+    </style>
+
 
 </resources>

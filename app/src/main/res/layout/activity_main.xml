@@ -22,4 +22,13 @@
         android:layout_toRightOf="@+id/hpb"
         android:layout_toEndOf="@+id/hpb"
         android:layout_marginLeft="16dp"/>
+
+    <com.thea.widget.BallLoadingView
+        android:id="@+id/blv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:layout_toRightOf="@+id/fpb"
+        android:layout_toEndOf="@+id/fpb"
+        android:layout_marginLeft="16dp"/>
 </RelativeLayout>

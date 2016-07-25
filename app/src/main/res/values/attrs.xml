@@ -22,4 +22,14 @@
         <attr name="progressBarWidth"/>
     </declare-styleable>
 
+    <attr name="ballDuration" format="integer"/>
+    <attr name="ballImage" format="reference"/>
+    <attr name="ballShadowColor" format="color"/>
+
+    <declare-styleable name="BallLoadingView">
+        <attr name="ballDuration"/>
+        <attr name="ballImage"/>
+        <attr name="ballShadowColor"/>
+    </declare-styleable>
+
 </resources>

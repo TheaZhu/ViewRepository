@@ -89,6 +89,9 @@ public class FaceProgressBar extends View {
 
             }
         }
+
+        if (valueAnimator == null)
+            startAnim();
     }
 
     public void finish(boolean succeeded) {

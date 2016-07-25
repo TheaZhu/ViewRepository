@@ -27,12 +27,17 @@ public class MainActivity extends AppCompatActivity {
         mHandler.postDelayed(mRunnable, 3000);
 
         mFaceProgressBar = (FaceProgressBar) findViewById(R.id.fpb);
-        mFaceProgressBar.startAnim();
+//        assert mFaceProgressBar != null;
+//        mFaceProgressBar.startAnim();
         mHandler.postDelayed(new Runnable() {
             @Override
             public void run() {
                 mFaceProgressBar.finish(true);
             }
         }, 10000);
+
+        BallLoadingView ballLoadingView = (BallLoadingView) findViewById(R.id.blv);
+//        assert ballLoadingView != null;
+//        ballLoadingView.startAnim();
     }
 }
