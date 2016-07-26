@@ -111,9 +111,9 @@ public class BallLoadingView extends View {
         int ballHeight = mBallBitmap.getHeight();
         float left = (float) (mRealWidth - ballWidth) / 2;
 
-        mShadowRectF.left = left + ballWidth * (1 - mAnimatedValue) / 4;
-        mShadowRectF.right = left + ballWidth * (3 + mAnimatedValue) / 4;
-        mShadowRectF.top = mRealHeight - ballHeight * (1 + mAnimatedValue) / 6;
+        mShadowRectF.left = (float) (left + ballWidth * (0.6 + mAnimatedValue) / 4);
+        mShadowRectF.right = (float) (mShadowRectF.left + ballWidth * (1.4 - mAnimatedValue) / 2);
+        mShadowRectF.top = (float) (mRealHeight - ballHeight * (1.4 - mAnimatedValue) / 8);
         mShadowRectF.bottom = mRealHeight;
 
         canvas.drawArc(mShadowRectF, 0, 360, false, mShadowPaint);
